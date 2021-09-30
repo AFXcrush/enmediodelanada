@@ -1,0 +1,13 @@
+@use "../variables/colors" as c;
+@use "../variables/sizes" as s;
+
+.footer {
+  text-align: center;
+  font-size: s.size(small);
+  color: c.$light;
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
