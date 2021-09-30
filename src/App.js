@@ -10,7 +10,11 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Inicio />
+        <Switch>
+          <Route exact path="/">
+            <Inicio />
+          </Route>
+        </Switch>
         <Footer />
       </div>
     </Router>
