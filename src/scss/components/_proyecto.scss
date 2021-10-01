@@ -1,0 +1,105 @@
+@use "../variables/colors" as c;
+@use "../variables/sizes" as s;
+@use "./diagrama" as diag;
+
+.proyecto {
+  @include diag.principal;
+  padding: 245px 60px 60px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .proyecto-container {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .descripcion {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    .title {
+      @include diag.title;
+    }
+
+    .parrafo {
+      @include diag.parrafo;
+    }
+  }
+
+  .equipo {
+    max-width: 700px;
+    margin: s.space(s7) auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+      @include diag.title;
+    }
+
+    .equipo-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      .equipo-container {
+        width: 140px;
+        margin: s.space(s3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: flex-start;
+
+        .equipo-img-container {
+          width: 100%;
+          height: 150px;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+
+          .equipo-img {
+            height: 100%;
+            display: block;
+          }
+        }
+
+        .equipo-nombre,
+        .equipo-rol {
+          text-align: center;
+          margin-top: s.space(s2);
+        }
+      }
+    }
+  }
+
+  .backstage {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+
+    .title {
+      @include diag.title;
+    }
+  }
+
+  .rosa-icon {
+    display: block;
+    width: 65px;
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+    fill: c.$light;
+    opacity: 0;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1;
+      transition: 1s;
+    }
+  }
+}

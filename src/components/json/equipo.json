@@ -1,0 +1,39 @@
+[
+    {
+        "id": "eqp01",
+        "nombre": "Xiomara Ríos",
+        "rol": "Producción",
+        "foto": "https://i.natgeofe.com/n/3861de2a-04e6-45fd-aec8-02e7809f9d4e/02-cat-training-NationalGeographic_1484324_16x9.jpg?w=636&h=358"
+        
+    },
+    {
+        "id": "eqp02",
+        "nombre": "Grecia Osorio",
+        "rol": "Guion / Dirección",
+        "foto": "https://static.independent.co.uk/2021/06/16/08/newFile-4.jpg?width=982&height=726&auto=webp&quality=75"
+    },
+    {
+        "id": "eqp03",
+        "nombre": "Sofía Villar",
+        "rol": "Sonidista",
+        "foto": "https://www.petmd.com/sites/default/files/styles/article_image/public/orange-tabby-kitten-walking-across-floor.jpg?itok=ApRxY9_r"
+    },
+    {
+        "id": "eqp04",
+        "nombre": "Franchesco Choy",
+        "rol": "Asistente de dirección",
+        "foto": "https://ychef.files.bbci.co.uk/624x351/p07ryyyj.jpg"
+    },
+    {
+        "id": "eqp05",
+        "nombre": "Victor Salazar",
+        "rol": "Script",
+        "foto": "https://static.standard.co.uk/2021/06/21/14/newFile.jpg?width=968&auto=webp&quality=75&crop=968%3A645%2Csmart"
+    },
+    {
+        "id": "eqp06",
+        "nombre": "Carlos Cruz",
+        "rol": "Edición",
+        "foto": "https://images2.minutemediacdn.com/image/upload/c_crop,h_1350,w_2400,x_0,y_59/f_auto,q_auto,w_1100/v1628778532/shape/mentalfloss/87226-gettyimages-1247734973.jpg"
+    }
+]

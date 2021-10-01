@@ -1,0 +1,47 @@
+@use "../variables/colors" as c;
+@use "../variables/sizes" as s;
+
+@mixin principal {
+  width: 100%;
+  height: 100vh;
+  background: c.$secondary;
+  background: url(https://res.cloudinary.com/afximagesection/image/upload/v1633058348/EnMedioDeLaNada/depresion_tunel_gradient_cwjk7g.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: c.$light;
+}
+
+@mixin title {
+  text-align: center;
+  font-size: s.size(big);
+  margin-bottom: s.space(s4);
+}
+
+@mixin parrafo {
+  text-align: justify;
+  margin-bottom: s.space(s4);
+  line-height: s.space(s4);
+}
+
+@mixin videoContainer {
+  width: 100%;
+  height: 245px;
+  background-color: black;
+  margin: s.space(s4) 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .play-btn {
+    display: block;
+    width: 87px;
+    cursor: pointer;
+    opacity: 0.75;
+
+    &:hover {
+      opacity: 1;
+      transition: 0.3s;
+    }
+  }
+}

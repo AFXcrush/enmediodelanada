@@ -1,0 +1,27 @@
+@use "../variables/colors" as c;
+@use "../variables/sizes" as s;
+@use "./diagrama" as diag;
+
+.ver-online {
+  @include diag.principal;
+  padding: 145px 60px 0 60px;
+
+  .eps-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .video-banner {
+    width: 440px;
+    margin-top: 180px;
+
+    .title {
+      font-size: s.size(big);
+    }
+
+    .parrafo {
+      @include diag.parrafo;
+    }
+  }
+}
