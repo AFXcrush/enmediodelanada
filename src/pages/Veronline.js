@@ -15,7 +15,7 @@ export default function Veronline() {
     <div className="ver-online">
       <div className="eps-container">
         <div className="video-banner">
-          <span className="title">EPISODIO 1</span>
+          <span className="title">AL LÍMITE</span>
           <div className="video-container">
             <PlayBtn
               className="play-btn"
@@ -30,7 +30,7 @@ export default function Veronline() {
         {openEP1 ? <Ep1 showV={() => setOpenEP1(!openEP1)} /> : null}
 
         <div className="video-banner">
-          <span className="title">EPISODIO 2</span>
+          <span className="title">SORPRESAS DE LA VIDA</span>
           <div className="video-container">
             <PlayBtn
               className="play-btn"
@@ -45,7 +45,7 @@ export default function Veronline() {
         {openEP2 ? <Ep2 showV={() => setOpenEP2(!openEP2)} /> : null}
 
         <div className="video-banner">
-          <span className="title">EPISODIO 3</span>
+          <span className="title">EN MEDIO DE LA NADA</span>
           <div className="video-container">
             <PlayBtn
               className="play-btn"
