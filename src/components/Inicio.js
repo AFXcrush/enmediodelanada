@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // import { PrimerEP } from "./youtube/PrimerEP";
 
 import { ReactComponent as PlayBtn } from "../assets/play-btn.svg";
-import { ReactComponent as Logo } from "../assets/logo.svg";
+import { ReactComponent as LogoDetached } from "../assets/logo-dettached.svg";
 
 export const Inicio = () => {
   // const [openVIdeo, setopenVIdeo] = useState(false);
@@ -30,7 +30,7 @@ export const Inicio = () => {
 
         {/* BIG LOGO BANNER */}
         <div className="logo-banner">
-          <Logo className="logo" />
+          <LogoDetached className="logo" />
           <div className="logline-container">
             <p className="parrafo">
               Una joven con problemas es atendida por una psicóloga que hace

@@ -5,7 +5,9 @@ export const Ep1 = (props) => {
         <span className="video-btn-link" onClick={props.showV}>
           CERRAR
         </span>
-        <span className="video-btn-link">SIGUIENTE</span>
+        <span className="video-btn-link" onClick={props.showN}>
+          SIGUIENTE
+        </span>
       </div>
       <iframe
         width="992px"

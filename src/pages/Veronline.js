@@ -11,6 +11,16 @@ export default function Veronline() {
   const [openEP2, setOpenEP2] = useState(false);
   const [openEP3, setOpenEP3] = useState(false);
 
+  const toEp2 = () => {
+    setOpenEP1(!openEP1);
+    setOpenEP2(!openEP2);
+  };
+
+  const toEpP3 = () => {
+    setOpenEP2(!openEP2);
+    setOpenEP3(!openEP3);
+  };
+
   return (
     <div className="ver-online">
       <div className="eps-container">
@@ -27,7 +37,9 @@ export default function Veronline() {
             lo posible por descubrir verdades ocultas.
           </p>
         </div>
-        {openEP1 ? <Ep1 showV={() => setOpenEP1(!openEP1)} /> : null}
+        {openEP1 ? (
+          <Ep1 showV={() => setOpenEP1(!openEP1)} showN={toEp2} />
+        ) : null}
 
         <div className="video-banner">
           <span className="title">SORPRESAS DE LA VIDA</span>
@@ -42,7 +54,9 @@ export default function Veronline() {
             su depresión.
           </p>
         </div>
-        {openEP2 ? <Ep2 showV={() => setOpenEP2(!openEP2)} /> : null}
+        {openEP2 ? (
+          <Ep2 showV={() => setOpenEP2(!openEP2)} showN={toEpP3} />
+        ) : null}
 
         <div className="video-banner">
           <span className="title">EN MEDIO DE LA NADA</span>
