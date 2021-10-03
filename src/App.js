@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import Proyecto from "./pages/Proyecto";
 import Veronline from "./pages/Veronline";
+import Secretos from "./pages/Secretos";
 
 import "./scss/app.scss";
 
@@ -23,6 +24,10 @@ function App() {
 
           <Route path="/veronline">
             <Veronline />
+          </Route>
+
+          <Route path="/secretos">
+            <Secretos />
           </Route>
         </Switch>
         <Footer />

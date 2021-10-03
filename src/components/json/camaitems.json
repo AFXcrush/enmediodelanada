@@ -1,0 +1,26 @@
+[
+    {
+        "id":"laptopID",
+        "nombre":"laptop",
+        "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633206050/EnMedioDeLaNada/maria_laptop_shine_tgevew.png",
+        "url":"https://view.genial.ly/5c7d35f408403f026134e3c8/interactive-content-antiguo-egipto"
+    },
+    {
+        "id":"smartphoneID",
+        "nombre":"smartphone",
+        "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633206050/EnMedioDeLaNada/maria_cel_shine_k30fvj.png",
+        "url":"https://www.instagram.com/nekonopodcast/"
+    },
+    {
+        "id":"diarioID",
+        "nombre":"diario",
+        "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633206050/EnMedioDeLaNada/maria_diario_shine_mzgecu.png",
+        "url":"https://www.comicextra.com/deadpool-2016/chapter-24"
+    },
+    {
+        "id":"bolaID",
+        "nombre":"bola",
+        "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633206050/EnMedioDeLaNada/maria_ball_shine_itqunj.png",
+        "url":"https://www.youtube.com/watch?v=tXSKhohnmos"
+    }
+]
