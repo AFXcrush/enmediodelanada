@@ -85,6 +85,11 @@
     .title {
       @include diag.title;
     }
+
+    .video-container {
+      background-image: url(https://res.cloudinary.com/afximagesection/image/upload/v1633638695/EnMedioDeLaNada/detras-de-cams_zmrvjh.jpg);
+      background-size: cover;
+    }
   }
 
   .rosa-icon {

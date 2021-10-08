@@ -18,6 +18,15 @@ export const Ep1 = (props) => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
+      <div className="pj-container">
+        <div className="pj-img-container">
+          <img
+            src="https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-maria_eqlsmf.jpg"
+            alt="María"
+          />
+        </div>
+        <p className="pj-description">Conoce los secretos de María</p>
+      </div>
     </div>
   );
 };

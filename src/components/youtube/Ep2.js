@@ -18,6 +18,15 @@ export const Ep2 = (props) => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
+      <div className="pj-container">
+        <div className="pj-img-container">
+          <img
+            src="https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-sofia_uw43fx.jpg"
+            alt="Sofía"
+          />
+        </div>
+        <p className="pj-description">Conoce los secretos de Sofía</p>
+      </div>
     </div>
   );
 };

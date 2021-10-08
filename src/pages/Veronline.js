@@ -21,12 +21,23 @@ export default function Veronline() {
     setOpenEP3(!openEP3);
   };
 
+  const videoThumbnail = [
+    "(https://res.cloudinary.com/afximagesection/image/upload/v1633638358/EnMedioDeLaNada/emdln_ep1_x8wrxb.jpg)",
+    "(https://res.cloudinary.com/afximagesection/image/upload/v1633638358/EnMedioDeLaNada/emdln_ep2_rptes3.jpg)",
+    "(https://res.cloudinary.com/afximagesection/image/upload/v1633642537/EnMedioDeLaNada/emdln_ep3_lcidz4.jpg)",
+  ];
+
+  console.log(videoThumbnail[0]);
+
   return (
     <div className="ver-online">
       <div className="eps-container">
         <div className="video-banner">
           <span className="title">AL LÍMITE</span>
-          <div className="video-container">
+          <div
+            className="video-container"
+            style={{ backgroundImage: `url${videoThumbnail[0]}` }}
+          >
             <PlayBtn
               className="play-btn"
               onClick={() => setOpenEP1(!openEP1)}
@@ -43,7 +54,10 @@ export default function Veronline() {
 
         <div className="video-banner">
           <span className="title">SORPRESAS DE LA VIDA</span>
-          <div className="video-container">
+          <div
+            className="video-container"
+            style={{ backgroundImage: `url${videoThumbnail[1]}` }}
+          >
             <PlayBtn
               className="play-btn"
               onClick={() => setOpenEP2(!openEP2)}
@@ -60,7 +74,10 @@ export default function Veronline() {
 
         <div className="video-banner">
           <span className="title">EN MEDIO DE LA NADA</span>
-          <div className="video-container">
+          <div
+            className="video-container"
+            style={{ backgroundImage: `url${videoThumbnail[2]}` }}
+          >
             <PlayBtn
               className="play-btn"
               onClick={() => setOpenEP3(!openEP3)}
