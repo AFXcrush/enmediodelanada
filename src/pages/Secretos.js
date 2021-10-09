@@ -14,7 +14,7 @@ export default function Secretos() {
         {/* BACKGROUND */}
         <img
           className="cama-bg"
-          src="https://res.cloudinary.com/afximagesection/image/upload/v1633655212/EnMedioDeLaNada/cama_maria_full_v2_hqgwez.png"
+          src="https://res.cloudinary.com/afximagesection/image/upload/v1633800576/EnMedioDeLaNada/cama_maria_full_v2_W-text_kdudxf.jpg"
           alt="cama de maría"
         />
 
