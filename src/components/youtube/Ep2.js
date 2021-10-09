@@ -18,14 +18,29 @@ export const Ep2 = (props) => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
+
       <div className="pj-container">
         <div className="pj-img-container">
           <img
-            src="https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-sofia_uw43fx.jpg"
-            alt="Sofía"
+            src="https://res.cloudinary.com/afximagesection/image/upload/v1633753685/EnMedioDeLaNada/Nicolas_comic_tn_as3hcb.jpg"
+            alt="Comic de Nicolás"
           />
         </div>
-        <p className="pj-description">Conoce los secretos de Sofía</p>
+        <p className="pj-description">
+          Nicolás:
+          <br />
+          "La vida después de la muerte"
+        </p>
+      </div>
+
+      <div className="pj-container2">
+        <div className="pj-img-container">
+          <img
+            src="https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-sofia_uw43fx.jpg"
+            alt="Video corto"
+          />
+        </div>
+        <p className="pj-description">El archivero de Sofía</p>
       </div>
     </div>
   );

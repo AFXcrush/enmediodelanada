@@ -1,4 +1,12 @@
+import { useHistory } from "react-router";
+
 export const Ep3 = (props) => {
+  const history = useHistory();
+
+  const handleClick = () => {
+    history.push("/secretos");
+  };
+
   return (
     <div className="youtube-player" onClick={props.showV}>
       <div className="video-btn-links">
@@ -20,23 +28,21 @@ export const Ep3 = (props) => {
       <div className="pj-container">
         <div className="pj-img-container">
           <img
-            src="https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-nicolas_i3w4pk.jpg"
-            alt="Nicolás"
+            src="https://res.cloudinary.com/afximagesection/image/upload/v1633754674/EnMedioDeLaNada/videoclip_tn_myetiq.jpg"
+            alt="Videoclip"
           />
         </div>
-        <p className="pj-description">Conoce los secretos de Nicolás</p>
+        <p className="pj-description">Se Dice Entre los Pasillos...</p>
       </div>
 
       <div className="pj-container2">
-        <div className="pj-img-container">
+        <div className="pj-img-container" onClick={handleClick}>
           <img
-            src="https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-mama_b9bf0e.jpg"
-            alt="Mamá de María"
+            src="https://res.cloudinary.com/afximagesection/image/upload/v1633754781/EnMedioDeLaNada/all_secrets_j6n1u4.jpg"
+            alt="Todos los secretos"
           />
         </div>
-        <p className="pj-description">
-          Conoce los secretos de la madre de María
-        </p>
+        <p className="pj-description">Conoce todos los secretos</p>
       </div>
     </div>
   );

@@ -25,7 +25,7 @@ export const Ep1 = (props) => {
             alt="María"
           />
         </div>
-        <p className="pj-description">Conoce los secretos de María</p>
+        <p className="pj-description">¿Quieres saber más sobre María?</p>
       </div>
     </div>
   );
