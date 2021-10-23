@@ -5,16 +5,28 @@
 .ver-online {
   @include diag.principal;
   padding: 145px 60px 0 60px;
+  overflow: auto;
+
+  .title-container {
+    margin-top: s.space(s7);
+    display: flex;
+    justify-content: center;
+
+    .serie-title {
+      font-size: s.size(bigger);
+      text-align: center;
+    }
+  }
 
   .eps-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .video-banner {
     width: 440px;
-    margin-top: 180px;
+    margin-top: s.space(s7);
 
     .title {
       font-size: s.size(big);
@@ -27,14 +39,8 @@
 }
 
 .video-container {
-  width: 100%;
-  height: 245px;
-  background-color: black;
+  @include diag.videoContainer;
   background-size: cover;
-  margin: s.space(s4) 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   .play-btn {
     display: block;

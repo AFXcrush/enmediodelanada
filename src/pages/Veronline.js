@@ -27,10 +27,11 @@ export default function Veronline() {
     "(https://res.cloudinary.com/afximagesection/image/upload/v1633642537/EnMedioDeLaNada/emdln_ep3_lcidz4.jpg)",
   ];
 
-  console.log(videoThumbnail[0]);
-
   return (
     <div className="ver-online">
+      <div className="title-container">
+        <span className="serie-title">SERIE WEB</span>
+      </div>
       <div className="eps-container">
         <div className="video-banner">
           <span className="title">AL LÍMITE</span>

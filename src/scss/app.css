@@ -1,6 +1,9 @@
 @forward "default";
 @forward "./components/inicio";
 @forward "./components/proyecto";
+@forward "./components/veronline";
 @forward "./components/header";
 @forward "./components/footer";
+@forward "./components/secretos";
+@forward "./components/blog";
 /*# sourceMappingURL=app.css.map */

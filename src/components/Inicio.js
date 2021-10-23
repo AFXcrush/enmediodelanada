@@ -1,8 +1,6 @@
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
 
-// import { PrimerEP } from "./youtube/PrimerEP";
-
 import { ReactComponent as PlayBtn } from "../assets/play-btn.svg";
 import { ReactComponent as LogoDetached } from "../assets/logo-dettached.svg";
 

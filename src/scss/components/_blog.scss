@@ -1,0 +1,91 @@
+@use "../variables/colors" as c;
+@use "../variables/sizes" as s;
+@use "./diagrama" as diag;
+
+.blog {
+  @include diag.principal;
+  padding: 145px 60px 60px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .title-container {
+    margin: s.space(s6) 0;
+    display: flex;
+    justify-content: center;
+
+    .blog-title {
+      font-size: s.size(bigger);
+      text-align: center;
+    }
+  }
+
+  .blog-container {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "per per suc"
+      "per per sec";
+
+    .blog-sector {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      padding: s.space(s4);
+      background-color: c.$secondary;
+      margin: s.space(s1);
+      position: relative;
+      opacity: 0.9;
+      cursor: pointer;
+
+      ::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: c.$dark;
+        background: radial-gradient(
+          circle,
+          rgba(c.$dark, 0) 0%,
+          rgba(c.$dark, 1) 100%
+        );
+        opacity: 1;
+        mix-blend-mode: overlay;
+      }
+
+      &:hover {
+        opacity: 1;
+        transition: 0.3s;
+      }
+    }
+
+    .personajes {
+      grid-area: per;
+      justify-content: center;
+      background-image: url(https://res.cloudinary.com/afximagesection/image/upload/v1634967992/EnMedioDeLaNada/Fog_p4ymds.jpg);
+      background-size: cover;
+    }
+
+    .sucesos {
+      grid-area: suc;
+      background-image: url(https://res.cloudinary.com/afximagesection/image/upload/v1634967992/EnMedioDeLaNada/Gillette_tygwog.jpg);
+      background-size: cover;
+    }
+
+    .mas-secretos {
+      grid-area: sec;
+      background-image: url(https://res.cloudinary.com/afximagesection/image/upload/v1634967992/EnMedioDeLaNada/Candado_ctobvt.jpg);
+      background-size: cover;
+    }
+
+    .title {
+      font-size: s.size(big);
+    }
+  }
+}

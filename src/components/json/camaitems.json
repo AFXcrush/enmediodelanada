@@ -2,42 +2,42 @@
     {
         "id":"laptopID",
         "nombre":"laptop",
-        "tooltip":"Blog",
+        "tooltip":"El archivero de Sofía",
         "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633206050/EnMedioDeLaNada/maria_laptop_shine_tgevew.png",
         "url":"https://view.genial.ly/5c7d35f408403f026134e3c8/interactive-content-antiguo-egipto"
     },
     {
         "id":"smartphoneID",
         "nombre":"smartphone",
-        "tooltip":"Redes",
+        "tooltip":"AppAriencias",
         "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633206050/EnMedioDeLaNada/maria_cel_shine_k30fvj.png",
         "url":"https://www.instagram.com/nekonopodcast/"
     },
     {
         "id":"diarioID",
         "nombre":"diario",
-        "tooltip":"Comic",
+        "tooltip":"La vida después de la muerte",
         "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633206050/EnMedioDeLaNada/maria_diario_shine_mzgecu.png",
         "url":"https://www.comicextra.com/deadpool-2016/chapter-24"
     },
     {
         "id":"bolaID",
         "nombre":"bola",
-        "tooltip":"Infografía",
+        "tooltip":"El todo",
         "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633206050/EnMedioDeLaNada/maria_ball_shine_itqunj.png",
         "url":"https://www.youtube.com/watch?v=tXSKhohnmos"
     },
     {
         "id":"fotoID",
         "nombre":"foto",
-        "tooltip":"Fotodocumental",
+        "tooltip":"Detrás de la nada",
         "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633655207/EnMedioDeLaNada/maria_foto_shine_kxxzow.png",
         "url":"https://www.youtube.com/watch?v=n-OByxoRlp4"
     },
     {
         "id":"audifonosID",
         "nombre":"audifonos",
-        "tooltip": "Podcast",
+        "tooltip": "Se dice entre los pasillos",
         "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633655207/EnMedioDeLaNada/maria_audifono_shine_zdnoj7.png",
         "url":"https://www.youtube.com/watch?v=N4w1CZDLk5Y"
     }

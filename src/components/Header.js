@@ -10,14 +10,14 @@ export const Header = () => {
           <Logo className="logo" />
         </Link>
 
-        <Link to="/" className="header-link">
+        <Link to="/veronline" className="header-link">
           <span>INICIO</span>
         </Link>
         <Link to="/proyecto" className="header-link">
           <span>PROYECTO</span>
         </Link>
-        <Link to="/veronline" className="header-link">
-          <span>VER ONLINE</span>
+        <Link to="/blog" className="header-link">
+          <span>BLOG</span>
         </Link>
         <Link to="/secretos" className="header-link-last">
           <span>DESCUBRE LOS SECRETOS</span>
