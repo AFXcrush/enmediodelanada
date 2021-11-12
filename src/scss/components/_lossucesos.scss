@@ -1,0 +1,13 @@
+@use "../variables/colors" as c;
+@use "../variables/sizes" as s;
+@use "./diagrama" as diag;
+
+.sucesos-grid {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: s.space(s6);
+
+  .blog-sector {
+    @include diag.blogSector;
+  }
+}

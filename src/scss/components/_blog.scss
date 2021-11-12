@@ -34,7 +34,7 @@
     .blog-sector {
       display: flex;
       flex-direction: column;
-      justify-content: end;
+      justify-content: flex-end;
       padding: s.space(s4);
       background-color: c.$secondary;
       margin: s.space(s1);
@@ -82,6 +82,11 @@
       grid-area: sec;
       background-image: url(https://res.cloudinary.com/afximagesection/image/upload/v1634967992/EnMedioDeLaNada/Candado_ctobvt.jpg);
       background-size: cover;
+    }
+
+    .title,
+    .description {
+      text-shadow: 1px 1px c.$dark;
     }
 
     .title {

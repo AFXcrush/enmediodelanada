@@ -22,9 +22,9 @@ export default function Veronline() {
   };
 
   const videoThumbnail = [
-    "(https://res.cloudinary.com/afximagesection/image/upload/v1633638358/EnMedioDeLaNada/emdln_ep1_x8wrxb.jpg)",
-    "(https://res.cloudinary.com/afximagesection/image/upload/v1633638358/EnMedioDeLaNada/emdln_ep2_rptes3.jpg)",
-    "(https://res.cloudinary.com/afximagesection/image/upload/v1633642537/EnMedioDeLaNada/emdln_ep3_lcidz4.jpg)",
+    "(https://res.cloudinary.com/afximagesection/image/upload/v1636569140/EnMedioDeLaNada/ep1_Tn_xzqzdn.jpg)",
+    "(https://res.cloudinary.com/afximagesection/image/upload/v1636738700/EnMedioDeLaNada/ep2_Tn_ubo7af.jpg)",
+    "(https://res.cloudinary.com/afximagesection/image/upload/v1636569296/EnMedioDeLaNada/ep3_Tn_e2gejc.jpg)",
   ];
 
   return (
@@ -74,7 +74,7 @@ export default function Veronline() {
         ) : null}
 
         <div className="video-banner">
-          <span className="title">EN MEDIO DE LA NADA</span>
+          <span className="title">LA ÚLTIMA GOTA</span>
           <div
             className="video-container"
             style={{ backgroundImage: `url${videoThumbnail[2]}` }}

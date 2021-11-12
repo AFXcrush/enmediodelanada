@@ -36,3 +36,16 @@
     }
   }
 }
+
+.header-blog {
+  @extend .header;
+
+  .logo-blog {
+    display: block;
+    width: auto;
+    transform: translate(-125px, 0);
+    height: 60px;
+    fill: c.$light;
+    margin: 0 auto;
+  }
+}

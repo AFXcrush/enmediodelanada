@@ -1,0 +1,58 @@
+[
+    {
+        "id": "p0",
+        "nombre": "María",
+        "apellido": "González",
+        "edad": 22,
+        "ocupacion": "Estudiante universitaria",
+        "hobbies": "Leer, escribir, escuchar música y leer libros de fantasía",
+        "favcol": "Amarillo",
+        "signo": "Acuario",
+        "caracter": "Es alta, de tez clara, cabello castaño oscuro ondulado.",
+        "actitud": "Es una chica inteligente, divertida, aparenta siempre estar alegre, cuando en realidad, debido a la ansiedad, está casi siempre con pánico ante cualquier situación que se le presente, por más improbable que parezca.",
+        "rel": "Hermana de Nicolás, hija de Sara Espinoza",
+        "foto":"https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-maria_eqlsmf.jpg"
+    },
+    {
+        "id": "p1",
+        "nombre": "Sofía",
+        "apellido": "Romero",
+        "edad": 31,
+        "ocupacion": "Psicóloga",
+        "hobbies": "Leer, escribir, salir a correr en las mañanas",
+        "favcol": "Celeste",
+        "signo": "Géminis",
+        "caracter": "Es alta, de tez clara, cabello negro ondeado.",
+        "actitud": "Es una persona de carácter asertivo, por lo que es paciente y calmada. Es astuta y suele meditar antes de tomar decisiones. Es contactactada por Nicolás para atender los problemas de María.",
+        "rel": "Amiga de Nicolás, psicóloga de María",
+        "foto": "https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-sofia_uw43fx.jpg"
+    },
+    {
+        "id": "p2",
+        "nombre": "Nicolás",
+        "apellido": "Gonzáles",
+        "edad": 25,
+        "ocupacion": "Estudiante de psicología",
+        "hobbies": "Jugar videojuegos, practicar karate, escuchar música",
+        "favcol": "Gris",
+        "signo": "Leo",
+        "caracter": "Es alto, de tez clara, cabello castaño oscuro lacio.",
+        "actitud": "Es una persona tranquila, responsable, y siempre se preocupa por su hermana cuando lo necesita.",
+        "rel": "Hermano de María, hijo de Sara Espinoza",
+        "foto": "https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-nicolas_i3w4pk.jpg"
+    },
+    {
+        "id": "p3",
+        "nombre": "Sara",
+        "apellido": "Espinoza",
+        "edad": 40,
+        "ocupacion": "Ama de casa",
+        "hobbies": "Jugar videojuegos, practicar karate, escuchar música",
+        "favcol": "Blanco",
+        "signo": "Escorpio",
+        "caracter": "Baja estatura, tez clara, cabello negro lacio.",
+        "actitud": "Se enoja con facilidad cuando algo le irrita, por lo que, a veces, no tiene paciencia con lo que le dice su hija.",
+        "rel": "Mamá de María y Nicolás",
+        "foto": "https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-mama_b9bf0e.jpg"
+    }
+]
