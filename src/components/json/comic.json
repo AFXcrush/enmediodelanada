@@ -1,0 +1,37 @@
+[
+    {
+        "id": "c1",
+        "page": "https://res.cloudinary.com/afximagesection/image/upload/v1636949625/EnMedioDeLaNada/Comic_01_fkis61.jpg",
+        "thumbnail": "https://res.cloudinary.com/afximagesection/image/upload/v1636949625/EnMedioDeLaNada/Comic_01-m_vl3lpz.jpg"
+    },
+    {
+        "id": "c2",
+        "page": "https://res.cloudinary.com/afximagesection/image/upload/v1636949625/EnMedioDeLaNada/Comic_02_gbl8dc.jpg",
+        "thumbnail": "https://res.cloudinary.com/afximagesection/image/upload/v1636949625/EnMedioDeLaNada/Comic_02-m_q09u20.jpg"
+    },
+    {
+        "id": "c3",
+        "page": "https://res.cloudinary.com/afximagesection/image/upload/v1636949625/EnMedioDeLaNada/Comic_03_zk7grq.jpg",
+        "thumbnail": "https://res.cloudinary.com/afximagesection/image/upload/v1636949626/EnMedioDeLaNada/Comic_03-m_bwjfzi.jpg"
+    },
+    {
+        "id": "c4",
+        "page": "https://res.cloudinary.com/afximagesection/image/upload/v1636949629/EnMedioDeLaNada/Comic_04_psap7f.jpg",
+        "thumbnail": "https://res.cloudinary.com/afximagesection/image/upload/v1636949626/EnMedioDeLaNada/Comic_04-m_jxp8lk.jpg"
+    },
+    {
+        "id": "c5",
+        "page": "https://res.cloudinary.com/afximagesection/image/upload/v1636949626/EnMedioDeLaNada/Comic_05_d4cxui.jpg",
+        "thumbnail": "https://res.cloudinary.com/afximagesection/image/upload/v1636949627/EnMedioDeLaNada/Comic_05-m_hvzthy.jpg"
+    },
+    {
+        "id": "c6",
+        "page": "https://res.cloudinary.com/afximagesection/image/upload/v1636949627/EnMedioDeLaNada/Comic_06_mxbdmq.jpg",
+        "thumbnail": "https://res.cloudinary.com/afximagesection/image/upload/v1636949627/EnMedioDeLaNada/Comic_06-m_hzhcju.jpg"
+    },
+    {
+        "id": "c7",
+        "page": "https://res.cloudinary.com/afximagesection/image/upload/v1636949627/EnMedioDeLaNada/Comic_07_lmarzx.jpg",
+        "thumbnail": "https://res.cloudinary.com/afximagesection/image/upload/v1636949625/EnMedioDeLaNada/Comic_07-m_pe6p5k.jpg"
+    }
+]

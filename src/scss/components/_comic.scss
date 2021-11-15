@@ -1,0 +1,104 @@
+@use "../variables/colors" as c;
+@use "../variables/sizes" as s;
+@use "./diagrama" as diag;
+
+.comic-content {
+  @include diag.blogPages;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .comic-grid {
+    padding: 0 s.space(s6);
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+  }
+
+  .nav-list {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    .logo-section {
+      span {
+        color: c.$light;
+      }
+
+      .logo-comic {
+        width: 80%;
+        display: block;
+        fill: c.$light;
+        margin: s.space(s4) auto;
+      }
+    }
+    .page-list-section {
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+
+      img {
+        display: block;
+        width: 30%;
+        margin: 0 auto s.space(s2) auto;
+      }
+    }
+  }
+
+  .comic-pages {
+    width: 80%;
+    height: 100%;
+    overflow: auto;
+
+    img {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+}
+
+// .comic-grid {
+//   display: grid;
+//   grid-template-columns: 1fr 4fr;
+//   gap: s.space(s6);
+
+//   .blog-sector {
+//     @include diag.blogSector;
+//   }
+
+//   .comic-mini-section {
+//     height: 520px;
+//     overflow: auto;
+//     display: flex;
+//     flex-direction: column;
+//     li {
+//       width: 30%;
+//       margin: 0 auto s.space(s4) auto;
+
+//       a {
+//         color: c.$light;
+
+//         img {
+//           width: 100%;
+//           display: block;
+//         }
+//       }
+//     }
+//   }
+
+//   .comic-section {
+//     width: 100%;
+//     height: 520px;
+//     overflow: auto;
+
+//     img {
+//       display: block;
+//       width: 100%;
+//     }
+//   }
+// }

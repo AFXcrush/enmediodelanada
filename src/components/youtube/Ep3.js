@@ -3,10 +3,6 @@ import { useHistory } from "react-router";
 export const Ep3 = (props) => {
   const history = useHistory();
 
-  const handleClick = () => {
-    history.push("/secretos");
-  };
-
   return (
     <div className="youtube-player" onClick={props.showV}>
       <div className="video-btn-links">
@@ -36,7 +32,12 @@ export const Ep3 = (props) => {
       </div>
 
       <div className="pj-container2">
-        <div className="pj-img-container" onClick={handleClick}>
+        <div
+          className="pj-img-container"
+          onClick={() => {
+            history.push("/secretos");
+          }}
+        >
           <img
             src="https://res.cloudinary.com/afximagesection/image/upload/v1633754781/EnMedioDeLaNada/all_secrets_j6n1u4.jpg"
             alt="Todos los secretos"

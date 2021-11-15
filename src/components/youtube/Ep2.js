@@ -1,4 +1,10 @@
+import { useHistory } from "react-router";
+
 export const Ep2 = (props) => {
+  const history = useHistory();
+
+  const ep2Links = ["/comic", "/mas-secretos"];
+
   return (
     <div className="youtube-player" onClick={props.showV}>
       <div className="video-btn-links">
@@ -20,7 +26,12 @@ export const Ep2 = (props) => {
       ></iframe>
 
       <div className="pj-container">
-        <div className="pj-img-container">
+        <div
+          className="pj-img-container"
+          onClick={() => {
+            history.push(ep2Links[0]);
+          }}
+        >
           <img
             src="https://res.cloudinary.com/afximagesection/image/upload/v1633753685/EnMedioDeLaNada/Nicolas_comic_tn_as3hcb.jpg"
             alt="Comic de Nicolás"
@@ -34,7 +45,12 @@ export const Ep2 = (props) => {
       </div>
 
       <div className="pj-container2">
-        <div className="pj-img-container">
+        <div
+          className="pj-img-container"
+          onClick={() => {
+            history.push(ep2Links[1]);
+          }}
+        >
           <img
             src="https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-sofia_uw43fx.jpg"
             alt="Video corto"

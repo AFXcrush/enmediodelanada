@@ -11,8 +11,9 @@ import LosSucesos from "./pages/LosSucesos";
 
 import "./scss/app.scss";
 import MasSecretos from "./pages/MasSecretos";
+import Comic from "./pages/Comic";
 
-const pagsSinHeader = ["/la-nada", "/los-sucesos", "/mas-secretos"];
+const pagsSinHeader = ["/la-nada", "/los-sucesos", "/mas-secretos", "/comic"];
 
 function App({ location }) {
   return (
@@ -49,6 +50,10 @@ function App({ location }) {
 
         <Route path="/mas-secretos">
           <MasSecretos />
+        </Route>
+
+        <Route path="/comic">
+          <Comic />
         </Route>
       </Switch>
       <Footer />
