@@ -14,7 +14,9 @@ export default function LosSucesos() {
         </div>
 
         <div className="sucesos-grid">
-          <section className="infografia"></section>
+          <section className="infografia">
+            <img src="https://res.cloudinary.com/afximagesection/image/upload/v1637227121/EnMedioDeLaNada/INFOGRAF%C3%8DAEST%C3%81TICA_qkxxax.jpg" />
+          </section>
           <section className="blog-links">
             <Link to="/la-nada">
               <BlogLinks

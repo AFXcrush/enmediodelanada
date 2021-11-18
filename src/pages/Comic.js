@@ -37,46 +37,5 @@ export default function Comic() {
         </section>
       </main>
     </div>
-    // <div className="blog-apart">
-    //   <div className="header-blog">
-    //     <Link to="/veronline" className="header-link">
-    //       <span>VOLVER</span>
-    //     </Link>
-    //     <LogoComic className="logo-blog" />
-    //   </div>
-
-    //   <main className="blog-apart-content">
-    //     <div className="blog-apart-title-container">
-    //       <span className="blog-apart-title">LA VIDA DESPUÉS DE LA MUERTE</span>
-    //     </div>
-
-    //     <div className="comic-grid">
-    //       <div className="comic-mini-section">
-    //         {ComicPages.map((c) => {
-    //           return (
-    //             <li key={c.id}>
-    //               <a href={`#${c.id}`}>
-    //                 <img src={c.thumbnail} alt={`página ${c.id}`} />
-    //               </a>
-    //             </li>
-    //           );
-    //         })}
-    //       </div>
-    //       <div className="comic-section">
-    //         {ComicPages.map((c) => {
-    //           return (
-    //             <img
-    //               key={c.id}
-    //               id={c.id}
-    //               className="comic-page"
-    //               src={c.page}
-    //               alt={`página ${c.id}`}
-    //             />
-    //           );
-    //         })}
-    //       </div>
-    //     </div>
-    //   </main>
-    // </div>
   );
 }
