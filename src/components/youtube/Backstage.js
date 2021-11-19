@@ -10,11 +10,11 @@ export const Backstage = (props) => {
         <iframe
           width="992"
           height="558"
-          src="https://www.youtube.com/embed/ExWt714616M"
+          src="https://www.youtube.com/embed/Tg0bUo46UQM"
           title="YouTube video player"
-          frameBorder="0"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
+          allowfullscreen
         ></iframe>
       </div>
     </div>
