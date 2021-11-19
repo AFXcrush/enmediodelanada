@@ -2,9 +2,9 @@
     {
         "id":"laptopID",
         "nombre":"laptop",
-        "tooltip":"El archivero de Sofía",
+        "tooltip":"Más secretos",
         "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633206050/EnMedioDeLaNada/maria_laptop_shine_tgevew.png",
-        "url":"https://view.genial.ly/5c7d35f408403f026134e3c8/interactive-content-antiguo-egipto"
+        "url":"/mas-secretos"
     },
     {
         "id":"smartphoneID",

@@ -18,7 +18,7 @@ export const Ep2 = (props) => {
       <iframe
         width="992px"
         height="558px"
-        src="https://www.youtube.com/embed/RBtlPT23PTM"
+        src="https://www.youtube.com/embed/rhCPs2pe6Yw"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -37,11 +37,7 @@ export const Ep2 = (props) => {
             alt="Comic de Nicolás"
           />
         </div>
-        <p className="pj-description">
-          Nicolás:
-          <br />
-          "La vida después de la muerte"
-        </p>
+        <p className="pj-description">"La vida después de la muerte"</p>
       </div>
 
       <div className="pj-container2">

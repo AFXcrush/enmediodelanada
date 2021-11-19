@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Ep1 = (props) => {
   return (
     <div className="youtube-player" onClick={props.showV}>
@@ -12,7 +14,7 @@ export const Ep1 = (props) => {
       <iframe
         width="992px"
         height="558px"
-        src="https://www.youtube.com/embed/wjzyv2Q_hdM"
+        src="https://www.youtube.com/embed/E6sfDnXceSY"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -20,10 +22,15 @@ export const Ep1 = (props) => {
       ></iframe>
       <div className="pj-container">
         <div className="pj-img-container">
-          <img
-            src="https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-maria_eqlsmf.jpg"
-            alt="María"
-          />
+          <Link
+            to={{ pathname: "https://www.tiktok.com/@maryshealthworld" }}
+            target="_blank"
+          >
+            <img
+              src="https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-maria_eqlsmf.jpg"
+              alt="María"
+            />
+          </Link>
         </div>
         <p className="pj-description">¿Quieres saber más sobre María?</p>
       </div>
