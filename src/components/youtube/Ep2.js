@@ -12,7 +12,7 @@ export const Ep2 = (props) => {
           CERRAR
         </span>
         <span className="video-btn-link" onClick={props.showN}>
-          EPISODO 3
+          EPISODIO 3
         </span>
       </div>
       <iframe
