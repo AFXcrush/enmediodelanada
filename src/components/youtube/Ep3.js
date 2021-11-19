@@ -14,7 +14,7 @@ export const Ep3 = (props) => {
       <iframe
         width="992"
         height="558"
-        src="https://www.youtube.com/embed/VWh-khtbzs4"
+        src="https://www.youtube.com/embed/eBhMaDo_Qao"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
