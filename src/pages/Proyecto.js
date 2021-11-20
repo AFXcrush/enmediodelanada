@@ -20,7 +20,7 @@ export default function Proyecto() {
             de una historia de suspenso y ficción.
           </p>
           <p className="parrafo">
-            El proyecto es realizado por estudiantes universitarios de la
+            El proyecto es realizado por estudiantes de los últimos ciclos de la
             Universidad Privada del Norte de Lima en medio del segundo año de la
             pandemia del coronavirus.
           </p>
