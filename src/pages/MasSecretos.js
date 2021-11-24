@@ -9,7 +9,7 @@ export default function MasSecretos() {
       <HeaderBlog />
       <main className="blog-apart-content">
         <div className="blog-apart-title-container">
-          <span className="blog-apart-title">MÁS SECRETOS</span>
+          <span className="blog-apart-title">EL ARCHIVERO DE SOFÍA</span>
         </div>
 
         <div className="mas-secretos-grid">

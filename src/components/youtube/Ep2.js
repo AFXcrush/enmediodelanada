@@ -1,9 +1,12 @@
-import { useHistory } from "react-router";
-
 export const Ep2 = (props) => {
-  const history = useHistory();
-
-  const ep2Links = ["/comic", "/mas-secretos"];
+  const comicLink = () => {
+    const link = window.open("/comic", "_blank");
+    link.focus();
+  };
+  const archivLink = () => {
+    const link = window.open("/mas-secretos", "_blank");
+    link.focus();
+  };
 
   return (
     <div className="youtube-player" onClick={props.showV}>
@@ -26,33 +29,29 @@ export const Ep2 = (props) => {
       ></iframe>
 
       <div className="pj-container">
-        <div
-          className="pj-img-container"
-          onClick={() => {
-            history.push(ep2Links[0]);
-          }}
-        >
+        <div className="pj-img-container" onClick={comicLink}>
           <img
             src="https://res.cloudinary.com/afximagesection/image/upload/v1633753685/EnMedioDeLaNada/Nicolas_comic_tn_as3hcb.jpg"
             alt="Comic de Nicolás"
           />
         </div>
-        <p className="pj-description">"La vida después de la muerte"</p>
+        <p className="pj-description">
+          <strong>LA VIDA DESPUÉS DE LA MUERTE</strong>
+          <br></br>Conoce la historia paralela de Nicolás
+        </p>
       </div>
 
       <div className="pj-container2">
-        <div
-          className="pj-img-container"
-          onClick={() => {
-            history.push(ep2Links[1]);
-          }}
-        >
+        <div className="pj-img-container" onClick={archivLink}>
           <img
-            src="https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-sofia_uw43fx.jpg"
+            src="https://res.cloudinary.com/afximagesection/image/upload/v1637776679/EnMedioDeLaNada/PJ-sofia500_qeqkgn.jpg"
             alt="Video corto"
           />
         </div>
-        <p className="pj-description">El archivero de Sofía</p>
+        <p className="pj-description">
+          <strong>EL ARCHIVERO DE SOFÍA</strong>
+          <br></br>Conoce la investigación de la psicóloga
+        </p>
       </div>
     </div>
   );

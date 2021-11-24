@@ -35,8 +35,10 @@ export default function Blog() {
             history.push("/mas-secretos");
           }}
         >
-          <span className="title">MÁS SECRETOS</span>
-          <span className="description">Curiosidades y más</span>
+          <span className="title">EL ARCHIVERO DE SOFÍA</span>
+          <span className="description">
+            Descubre la investigación de Sofía
+          </span>
         </div>
       </main>
     </div>

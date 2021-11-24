@@ -11,7 +11,7 @@
         "caracter": "Es alta, de tez clara, cabello castaño oscuro ondulado.",
         "actitud": "Es una chica inteligente, divertida, aparenta siempre estar alegre, cuando en realidad, debido a la ansiedad, está casi siempre con pánico ante cualquier situación que se le presente, por más improbable que parezca.",
         "rel": "Hermana de Nicolás, hija de Sara Espinoza",
-        "foto":"https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-maria_eqlsmf.jpg"
+        "foto":"https://res.cloudinary.com/afximagesection/image/upload/v1637770136/EnMedioDeLaNada/PJ-maria_dxuml2.jpg"
     },
     {
         "id": "p1",
@@ -25,7 +25,7 @@
         "caracter": "Es alta, de tez clara, cabello negro ondeado.",
         "actitud": "Es una persona de carácter asertivo, por lo que es paciente y calmada. Es astuta y suele meditar antes de tomar decisiones. Es contactactada por Nicolás para atender los problemas de María.",
         "rel": "Amiga de Nicolás, psicóloga de María",
-        "foto": "https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-sofia_uw43fx.jpg"
+        "foto": "https://res.cloudinary.com/afximagesection/image/upload/v1637770136/EnMedioDeLaNada/PJ-sofia_ftnxfz.jpg"
     },
     {
         "id": "p2",
@@ -39,7 +39,7 @@
         "caracter": "Es alto, de tez clara, cabello castaño oscuro lacio.",
         "actitud": "Es una persona tranquila, responsable, y siempre se preocupa por su hermana cuando lo necesita.",
         "rel": "Hermano de María, hijo de Sara Espinoza",
-        "foto": "https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-nicolas_i3w4pk.jpg"
+        "foto": "https://res.cloudinary.com/afximagesection/image/upload/v1637770136/EnMedioDeLaNada/PJ-nicolas_tkjxeu.jpg"
     },
     {
         "id": "p3",
@@ -53,6 +53,6 @@
         "caracter": "Baja estatura, tez clara, cabello negro lacio.",
         "actitud": "Se enoja con facilidad cuando algo le irrita, por lo que, a veces, no tiene paciencia con lo que le dice su hija.",
         "rel": "Mamá de María y Nicolás",
-        "foto": "https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-mama_b9bf0e.jpg"
+        "foto": "https://res.cloudinary.com/afximagesection/image/upload/v1637770136/EnMedioDeLaNada/PJ-sara_ixevmw.jpg"
     }
 ]

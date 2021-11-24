@@ -27,12 +27,15 @@ export const Ep1 = (props) => {
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/afximagesection/image/upload/v1633665208/EnMedioDeLaNada/pj-maria_eqlsmf.jpg"
+              src="https://res.cloudinary.com/afximagesection/image/upload/v1637771623/EnMedioDeLaNada/PJ-maria600_xjbzwb.jpg"
               alt="María"
             />
           </Link>
         </div>
-        <p className="pj-description">¿Quieres saber más sobre María?</p>
+        <p className="pj-description">
+          <strong>MARÍA EN LA NADA</strong>
+          <br></br>Descubre el mundo interior de María
+        </p>
       </div>
     </div>
   );

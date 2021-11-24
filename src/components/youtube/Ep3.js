@@ -28,7 +28,10 @@ export const Ep3 = (props) => {
             alt="Videoclip"
           />
         </div>
-        <p className="pj-description">Se Dice Entre los Pasillos...</p>
+        <p className="pj-description">
+          <strong>SE DICE ENTRE LOS PASILLOS</strong>
+          <br></br>Mira el videoclip de la serie
+        </p>
       </div>
 
       <div className="pj-container2">
@@ -43,7 +46,10 @@ export const Ep3 = (props) => {
             alt="Todos los secretos"
           />
         </div>
-        <p className="pj-description">Conoce todos los secretos</p>
+        <p className="pj-description">
+          <strong>LOS SECRETOS</strong>
+          <br></br>Sección a todas las plataformas de la serie web
+        </p>
       </div>
     </div>
   );
