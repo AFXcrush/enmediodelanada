@@ -3,31 +3,57 @@
         "id": "Ar1",
         "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637826482/EnMedioDeLaNada/Maria-Wsp-file_pn4hje.png",
         "title": "Chat de WhatsApp 1",
-        "url": "https://www.youtube.com/watch?v=MeQU5unPcK0"
+        "url": "https://www.youtube.com/watch?v=MeQU5unPcK0",
+        "frameV": "https://www.youtube.com/embed/MeQU5unPcK0"
     },
     {
         "id": "Ar2",
         "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637826482/EnMedioDeLaNada/Maria-Wsp-file_pn4hje.png",
         "title": "Chat de WhatsApp 2",
-        "url": "https://www.youtube.com/watch?v=3LRAGHZ2Bt0"
+        "url": "https://www.youtube.com/watch?v=3LRAGHZ2Bt0",
+        "frameV": "https://www.youtube.com/embed/3LRAGHZ2Bt0"
     },
     {
         "id": "Ar3",
         "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637826482/EnMedioDeLaNada/Maria-Wsp-file_pn4hje.png",
         "title": "Chat de WhatsApp 3",
-        "url": "https://www.youtube.com/watch?v=3TW3WkJbBrs"
+        "url": "https://www.youtube.com/watch?v=3TW3WkJbBrs",
+        "frameV": "https://www.youtube.com/embed/3TW3WkJbBrs"
     },
     
     {
         "id": "Ar4",
         "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637826482/EnMedioDeLaNada/Maria-Wsp-file_pn4hje.png",
         "title": "Chat de WhatsApp 4",
-        "url": "https://www.youtube.com/watch?v=uC0P2syrh7g"
+        "url": "https://www.youtube.com/watch?v=uC0P2syrh7g",
+        "frameV": "https://www.youtube.com/embed/uC0P2syrh7g"
     },
     {
         "id": "Ar5",
         "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637826482/EnMedioDeLaNada/Maria-file_rquwg3.png",
         "title": "La última carta",
-        "url": "https://res.cloudinary.com/afximagesection/image/upload/v1637831242/EnMedioDeLaNada/ultima-carta_bagleg.jpg"
+        "url": "https://res.cloudinary.com/afximagesection/image/upload/v1637831242/EnMedioDeLaNada/ultima-carta_bagleg.jpg",
+        "frameI": "https://res.cloudinary.com/afximagesection/image/upload/v1637831242/EnMedioDeLaNada/ultima-carta_bagleg.jpg"
+    },
+    {
+        "id": "Ar6",
+        "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637826482/EnMedioDeLaNada/Maria-file_rquwg3.png",
+        "title": "Mi diario Set 2021",
+        "url": "https://res.cloudinary.com/afximagesection/image/upload/v1637868613/EnMedioDeLaNada/diario_entry_1_sfz6b5.jpg",
+        "frameI": "https://res.cloudinary.com/afximagesection/image/upload/v1637831242/EnMedioDeLaNada/ultima-carta_bagleg.jpg"
+    },
+    {
+        "id": "Ar7",
+        "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637826482/EnMedioDeLaNada/Maria-file_rquwg3.png",
+        "title": "Mi diario Oct 2021",
+        "url": "https://res.cloudinary.com/afximagesection/image/upload/v1637868612/EnMedioDeLaNada/diario_entry_2_stpknr.jpg",
+        "frameI": "https://res.cloudinary.com/afximagesection/image/upload/v1637831242/EnMedioDeLaNada/ultima-carta_bagleg.jpg"
+    },
+    {
+        "id": "Ar8",
+        "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637826482/EnMedioDeLaNada/Maria-file_rquwg3.png",
+        "title": "Mi diario Nov 2021",
+        "url": "https://res.cloudinary.com/afximagesection/image/upload/v1637868613/EnMedioDeLaNada/diario_entry_3_gbh8ip.jpg",
+        "frameI": "https://res.cloudinary.com/afximagesection/image/upload/v1637831242/EnMedioDeLaNada/ultima-carta_bagleg.jpg"
     }
 ]
