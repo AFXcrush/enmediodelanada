@@ -19,6 +19,9 @@ export const Header = () => {
         <Link to="/blog" className="header-link">
           <span>BLOG</span>
         </Link>
+        <Link to="/mapa-del-sitio" className="header-link">
+          <span>MAPA DEL SITIO</span>
+        </Link>
         <Link to="/secretos" className="header-link-last">
           <span>DESCUBRE LOS SECRETOS</span>
         </Link>

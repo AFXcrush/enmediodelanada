@@ -8,10 +8,11 @@ import Secretos from "./pages/Secretos";
 import Blog from "./pages/Blog";
 import LaNada from "./pages/LaNada";
 import LosSucesos from "./pages/LosSucesos";
-
-import "./scss/app.scss";
 import MasSecretos from "./pages/MasSecretos";
 import Comic from "./pages/Comic";
+import Mapa from "./pages/Mapa";
+
+import "./scss/app.scss";
 
 const pagsSinHeader = ["/la-nada", "/los-sucesos", "/mas-secretos", "/comic"];
 
@@ -34,6 +35,10 @@ function App({ location }) {
 
         <Route path="/veronline">
           <Veronline />
+        </Route>
+
+        <Route path="/mapa-del-sitio">
+          <Mapa />
         </Route>
 
         <Route path="/secretos">

@@ -1,0 +1,101 @@
+[
+    {
+        "redes": [
+            {
+                "id": "R1",
+                "title":"INSTAGRAM",
+                "desc": "Página de Instagram oficial de 'En Medio de la Nada'",
+                "url": "https://www.instagram.com/enmediodelanada2021/?hl=es-la",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637800398/EnMedioDeLaNada/logo-insta_l21y0a.png"
+            },
+            {
+                "id": "R2",
+                "title":"FACEBOOK",
+                "desc": "Página de Facebook oficial de 'En Medio de la Nada'",
+                "url": "https://www.instagram.com/enmediodelanada2021/?hl=es-la",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637800398/EnMedioDeLaNada/logo-fb_phmfc4.png"
+            },
+            {
+                "id": "R3",
+                "title":"TIKTOK",
+                "desc": "Página del Instagram oficial de 'En Medio de la Nada'",
+                "url": "https://www.instagram.com/enmediodelanada2021/?hl=es-la",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637800398/EnMedioDeLaNada/logo-tiktok_qm93ab.png"
+            },
+            {
+                "id": "R4",
+                "title":"TWITTER",
+                "desc": "Página del Instagram oficial de 'En Medio de la Nada'",
+                "url": "https://www.instagram.com/enmediodelanada2021/?hl=es-la",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637800398/EnMedioDeLaNada/logo-twitter_yqjvga.png"
+            }
+        ],
+        "videos": [
+            {
+                "id": "EP1",
+                "title": "AL LÍMITE",
+                "desc": "Episodio 1 de la serie web",
+                "url": "https://www.youtube.com/watch?v=E6sfDnXceSY",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637806023/EnMedioDeLaNada/IMGep1_pi1bxm.jpg"
+            },
+            {
+                "id": "EP2",
+                "title": "SORPRESAS DE LA VIDA",
+                "desc": "Episodio 2 de la serie web",
+                "url": "https://www.youtube.com/watch?v=rhCPs2pe6Yw",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637806023/EnMedioDeLaNada/IMGep2_wpajwj.jpg"
+            },
+            {
+                "id": "EP3",
+                "title": "LA ÚLTIMA GOTA",
+                "desc": "Episodio 3 de la serie web",
+                "url": "https://www.youtube.com/watch?v=eBhMaDo_Qao",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637806023/EnMedioDeLaNada/IMGep3_kopxih.jpg"
+            },
+            {
+                "id": "Vclip",
+                "title": "SE DICE ENTRE LOS PASILLOS",
+                "desc": "Videoclip de 'En Medio de la Nada'",
+                "url": "https://www.youtube.com/watch?v=E6sfDnXceSY",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637806023/EnMedioDeLaNada/IMGvideoclip_b3ermi.jpg"
+            },
+            {
+                "id": "BckStg",
+                "title": "DETRÁS DE LA NADA",
+                "desc": "Detrás de cámara de 'En Medio de la Nada'",
+                "url": "https://www.youtube.com/watch?v=Tg0bUo46UQM",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637806023/EnMedioDeLaNada/clapper_ldktew.png"
+            }
+        ],
+        "miscelanea": [
+            {
+                "id": "M1",
+                "title": "LA NADA",
+                "desc": "Detalle de los personajes de 'En Medio de la Nada'",
+                "url": "/la-nada",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637807785/EnMedioDeLaNada/IMGpjs_vhtfv5.jpg"
+            },
+            {
+                "id": "M2",
+                "title": "LOS SUCESOS",
+                "desc": "Infografía estática que explica los acontecimientos",
+                "url": "/los-sucesos",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637807785/EnMedioDeLaNada/IMGinfog_dvjpb3.jpg"
+            },
+            {
+                "id": "M3",
+                "title": "EL ARCHIVERO DE SOFÍA",
+                "desc": "Recopilación de archivos de Sofía que profundizan la historia",
+                "url": "/mas-secretos",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637807785/EnMedioDeLaNada/IMGarchivero_xcowyg.jpg"
+            },
+            {
+                "id": "M4",
+                "title": "LA VIDA DESPUÉS DE LA MUERTE",
+                "desc": "Cómic paralelo a la historia, narrado desde la perspectiva de Nicolás",
+                "url": "/comic",
+                "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637807785/EnMedioDeLaNada/IMGcomic_iisnlw.jpg"
+            }
+        ]
+    }
+]
