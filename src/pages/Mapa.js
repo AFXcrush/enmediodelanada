@@ -17,7 +17,11 @@ export default function Mapa() {
               m.redes.map((r) => {
                 return (
                   <li key={r.id}>
-                    <Link to={r.url} target="_blank" className="li-link">
+                    <Link
+                      to={{ pathname: `${r.url}` }}
+                      target="_blank"
+                      className="li-link"
+                    >
                       <img className="redes-logo" src={r.img} alt={r.title} />
                       <div className="txt-container">
                         <span>{r.title}</span>
@@ -38,7 +42,11 @@ export default function Mapa() {
               m.videos.map((v) => {
                 return (
                   <li key={v.id}>
-                    <Link to={v.url} target="_blank" className="li-link">
+                    <Link
+                      to={{ pathname: `${v.url}` }}
+                      target="_blank"
+                      className="li-link"
+                    >
                       <img className="redes-logo" src={v.img} alt={v.title} />
                       <div className="txt-container">
                         <span>{v.title}</span>
@@ -59,7 +67,11 @@ export default function Mapa() {
               m.miscelanea.map((mis) => {
                 return (
                   <li key={mis.id}>
-                    <Link to={mis.url} target="_blank" className="li-link">
+                    <Link
+                      to={{ pathname: `${mis.url}` }}
+                      target="_blank"
+                      className="li-link"
+                    >
                       <img
                         className="redes-logo"
                         src={mis.img}
