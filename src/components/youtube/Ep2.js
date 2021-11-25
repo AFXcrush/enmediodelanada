@@ -49,7 +49,7 @@ export const Ep2 = (props) => {
           />
         </div>
         <p className="pj-description">
-          <strong>EL ARCHIVERO DE SOFÍA</strong>
+          <strong>EL ARCHIVERO DE MARÍA</strong>
           <br></br>Conoce la investigación de la psicóloga
         </p>
       </div>

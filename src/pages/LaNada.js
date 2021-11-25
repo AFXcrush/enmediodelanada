@@ -90,8 +90,8 @@ export default function LaNada() {
             </Link>
             <Link to="/mas-secretos">
               <BlogLinks
-                title="EL ARCHIVERO DE SOFÍA"
-                desc="Descubre la investigación de Sofía"
+                title="EL ARCHIVERO DE MARÍA"
+                desc="Descubre más secretos"
                 clase="mas-secretos"
               />
             </Link>

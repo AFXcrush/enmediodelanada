@@ -37,6 +37,24 @@ export const Ep1 = (props) => {
           <br></br>Descubre el mundo interior de María
         </p>
       </div>
+
+      <div className="pj-container2">
+        <div className="pj-img-container">
+          <Link
+            to={{ pathname: "https://twitter.com/maria022w" }}
+            target="_blank"
+          >
+            <img
+              src="https://res.cloudinary.com/afximagesection/image/upload/v1637831242/EnMedioDeLaNada/sparrow_owwum4.jpg"
+              alt="Sparrow"
+            />
+          </Link>
+        </div>
+        <p className="pj-description">
+          <strong>AppARIENCIAS</strong>
+          <br></br>El desahogo de María en Twitter
+        </p>
+      </div>
     </div>
   );
 };

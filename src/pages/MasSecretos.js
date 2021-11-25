@@ -3,17 +3,31 @@ import { Link } from "react-router-dom";
 import HeaderBlog from "../components/HeaderBlog";
 import BlogLinks from "../components/BlogLinks";
 
+import Archivero from "../components/json/archivero.json";
+
 export default function MasSecretos() {
   return (
     <div className="blog-apart">
       <HeaderBlog />
       <main className="blog-apart-content">
         <div className="blog-apart-title-container">
-          <span className="blog-apart-title">EL ARCHIVERO DE SOFÍA</span>
+          <span className="blog-apart-title">EL ARCHIVERO DE MARÍA</span>
         </div>
 
         <div className="mas-secretos-grid">
-          <section className="mas-secretos-section"></section>
+          <section className="mas-secretos-section">
+            {Archivero.map((ar) => {
+              return (
+                <div key={ar.id} className="archivo">
+                  <Link to={{ pathname: `${ar.url}` }} target="_blank">
+                    <img src={ar.img} alt={ar.title} />
+                  </Link>
+                  <span>{ar.title}</span>
+                </div>
+              );
+            })}
+          </section>
+
           <section className="blog-links">
             <Link to="/la-nada">
               <BlogLinks
