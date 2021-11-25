@@ -2,7 +2,7 @@
     {
         "id":"laptopID",
         "nombre":"laptop",
-        "tooltip":"Más secretos",
+        "tooltip":"El archivero de Sofía",
         "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633206050/EnMedioDeLaNada/maria_laptop_shine_tgevew.png",
         "url":"/mas-secretos"
     },
@@ -11,7 +11,7 @@
         "nombre":"smartphone",
         "tooltip":"AppAriencias",
         "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633206050/EnMedioDeLaNada/maria_cel_shine_k30fvj.png",
-        "url":"https://www.instagram.com/nekonopodcast/"
+        "url":"https://twitter.com/maria022w"
     },
     {
         "id":"diarioID",
@@ -23,9 +23,9 @@
     {
         "id":"bolaID",
         "nombre":"bola",
-        "tooltip":"El todo",
+        "tooltip":"Los sucesos",
         "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633206050/EnMedioDeLaNada/maria_ball_shine_itqunj.png",
-        "url":"https://www.youtube.com/watch?v=tXSKhohnmos"
+        "url":"/los-sucesos"
     },
     {
         "id":"fotoID",
@@ -37,8 +37,8 @@
     {
         "id":"audifonosID",
         "nombre":"audifonos",
-        "tooltip": "Se dice entre los pasillos",
+        "tooltip": "Al final de la nada",
         "img":"https://res.cloudinary.com/afximagesection/image/upload/v1633655207/EnMedioDeLaNada/maria_audifono_shine_zdnoj7.png",
-        "url":"https://www.youtube.com/watch?v=N4w1CZDLk5Y"
+        "url":"https://www.youtube.com/watch?v=43QF_oaBdJE"
     }
 ]

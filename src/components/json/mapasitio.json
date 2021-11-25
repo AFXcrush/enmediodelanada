@@ -35,35 +35,35 @@
                 "id": "EP1",
                 "title": "AL LÍMITE",
                 "desc": "Episodio 1 de la serie web",
-                "url": "https://www.youtube.com/watch?v=E6sfDnXceSY",
+                "url": "https://www.youtube.com/watch?v=JyKiZamha6U",
                 "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637806023/EnMedioDeLaNada/IMGep1_pi1bxm.jpg"
             },
             {
                 "id": "EP2",
                 "title": "SORPRESAS DE LA VIDA",
                 "desc": "Episodio 2 de la serie web",
-                "url": "https://www.youtube.com/watch?v=rhCPs2pe6Yw",
+                "url": "https://www.youtube.com/watch?v=cUizlna_4O4",
                 "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637806023/EnMedioDeLaNada/IMGep2_wpajwj.jpg"
             },
             {
                 "id": "EP3",
                 "title": "LA ÚLTIMA GOTA",
                 "desc": "Episodio 3 de la serie web",
-                "url": "https://www.youtube.com/watch?v=eBhMaDo_Qao",
+                "url": "https://www.youtube.com/watch?v=svDsA_DQYSM",
                 "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637806023/EnMedioDeLaNada/IMGep3_kopxih.jpg"
             },
             {
                 "id": "Vclip",
-                "title": "SE DICE ENTRE LOS PASILLOS",
+                "title": "AL FINAL DE LA NADA",
                 "desc": "Videoclip de 'En Medio de la Nada'",
-                "url": "https://www.youtube.com/watch?v=E6sfDnXceSY",
+                "url": "https://www.youtube.com/watch?v=43QF_oaBdJE",
                 "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637806023/EnMedioDeLaNada/IMGvideoclip_b3ermi.jpg"
             },
             {
                 "id": "BckStg",
                 "title": "DETRÁS DE LA NADA",
                 "desc": "Detrás de cámara de 'En Medio de la Nada'",
-                "url": "https://www.youtube.com/watch?v=Tg0bUo46UQM",
+                "url": "https://www.youtube.com/watch?v=UoDhfR-uRNw",
                 "img": "https://res.cloudinary.com/afximagesection/image/upload/v1637806023/EnMedioDeLaNada/clapper_ldktew.png"
             }
         ],
