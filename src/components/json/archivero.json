@@ -55,5 +55,11 @@
         "title": "Mi diario Nov 2021",
         "url": "https://res.cloudinary.com/afximagesection/image/upload/v1637868613/EnMedioDeLaNada/diario_entry_3_gbh8ip.jpg",
         "frameI": "https://res.cloudinary.com/afximagesection/image/upload/v1637831242/EnMedioDeLaNada/ultima-carta_bagleg.jpg"
+    },
+    {
+        "id": "Ar9",
+        "img": "https://res.cloudinary.com/afximagesection/image/upload/v1638444739/EnMedioDeLaNada/Maria-game_jjx1gs.png",
+        "title": "El juego de la Nada",
+        "url": "https://afxcrush.github.io/el-juego-de-la-nada-puzzle/"
     }
 ]

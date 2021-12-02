@@ -7,24 +7,6 @@ import BlogLinks from "../components/BlogLinks";
 import Archivero from "../components/json/archivero.json";
 
 export default function MasSecretos() {
-  // const [openFrame, setOpenFrame] = useState(false)
-
-  // const videoFrame = (v)=>{
-  //   return(
-  //     <iframe width="992px"
-  //     height="558px"
-  //     src={v}
-  //     title="YouTube video player"
-  //     frameBorder="0"
-  //     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  //     allowFullScreen></iframe>
-  //   )
-  // }
-
-  // const imgFrame = (i)=>{
-  //   <iframe src={i} frameborder="0"></iframe>
-  // }
-
   return (
     <div className="blog-apart">
       <HeaderBlog />
@@ -37,16 +19,14 @@ export default function MasSecretos() {
           <section className="mas-secretos-section">
             {Archivero.map((ar) => {
               return (
-                <>
-                  <div key={ar.id} className="archivo">
+                <div key={ar.id}>
+                  <div className="archivo">
                     <Link to={{ pathname: `${ar.url}` }} target="_blank">
                       <img src={ar.img} alt={ar.title} />
                     </Link>
                     <span>{ar.title}</span>
                   </div>
-                  {/* {ar.frameV?videoFrame(ar.frameV):null}
-                {ar.frameI?imgFrame(ar.frameI):null} */}
-                </>
+                </div>
               );
             })}
           </section>

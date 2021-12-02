@@ -109,4 +109,55 @@
       transition: 1s;
     }
   }
+
+  .code-window {
+    height: 300px;
+    background-color: rgba(c.$dark, 0.9);
+    padding: s.space(s4);
+    border-radius: s.space(s4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+      font-size: s.size(big);
+      margin: s.space(s4) 0;
+    }
+
+    h3 {
+      color: c.$terciary;
+    }
+
+    input {
+      width: 80%;
+      height: s.space(s5);
+      border-radius: 25px;
+      padding: 0 s.space(s3);
+      margin: s.space(s4) 0;
+    }
+
+    .pista-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .pista1 {
+        font-size: medium;
+        margin: s.space(s1);
+        opacity: 0.3;
+      }
+
+      .pista2 {
+        font-size: small;
+        margin: s.space(s1);
+        opacity: 0;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 1;
+          transition: 1s;
+        }
+      }
+    }
+  }
 }

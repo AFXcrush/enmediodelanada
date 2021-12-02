@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import { Backstage } from "../components/youtube/Backstage";
+import { SecretCodeForm } from "../components/SecretCodeForm";
 
 import { ReactComponent as PlayBtn } from "../assets/play-btn.svg";
 import { ReactComponent as RosaIcon } from "../assets/rosa-icon.svg";
@@ -9,6 +10,7 @@ import Equipo from "../components/json/equipo.json";
 
 export default function Proyecto() {
   const [openVIdeo, setopenVIdeo] = useState(false);
+  const [openCode, setOpenCode] = useState(false);
 
   return (
     <div className="proyecto">
@@ -60,7 +62,13 @@ export default function Proyecto() {
           ) : null}
         </section>
 
-        <RosaIcon className="rosa-icon" />
+        <RosaIcon
+          className="rosa-icon"
+          onClick={() => setOpenCode(!openCode)}
+        />
+        {openCode ? (
+          <SecretCodeForm showC={() => setOpenCode(!openCode)} />
+        ) : null}
       </main>
     </div>
   );

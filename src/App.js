@@ -11,10 +11,17 @@ import LosSucesos from "./pages/LosSucesos";
 import MasSecretos from "./pages/MasSecretos";
 import Comic from "./pages/Comic";
 import Mapa from "./pages/Mapa";
+import GaleriaSecreta from "./pages/GaleriaSecreta";
 
 import "./scss/app.scss";
 
-const pagsSinHeader = ["/la-nada", "/los-sucesos", "/mas-secretos", "/comic"];
+const pagsSinHeader = [
+  "/la-nada",
+  "/los-sucesos",
+  "/mas-secretos",
+  "/comic",
+  "/galeria-secreta",
+];
 
 function App({ location }) {
   return (
@@ -59,6 +66,9 @@ function App({ location }) {
 
         <Route path="/comic">
           <Comic />
+        </Route>
+        <Route path="/galeria-secreta">
+          <GaleriaSecreta />
         </Route>
       </Switch>
       <Footer />
